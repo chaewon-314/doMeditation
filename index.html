@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <input type="hidden" id="g-recaptcha" name="g-recaptcha">
+<head>
+    <meta charset="UTF-8">
+    <title>샘플</title>
+    <link href="./sytle.css" rel="stylesheet">
+
+</head>
+<body></body>
+    <p>recaptcha 실험용 사이트</p>
+    <script src='https://www.google.com/recaptcha/api.js?render=6LeoWB8pAAAAAF83qjDehCx-tc8JDIOvcBryQuws'></script>
+
+        <script type="text/javascript">
+          grecaptcha.ready(function() {
+           grecaptcha.execute('6LeoWB8pAAAAAF83qjDehCx-tc8JDIOvcBryQuws', {action: 'homepage'}).then(function(token) {
+            document.getElementById('g-recaptcha').value = token;
+           });
+          });
+        </script>
+
+
+
+
+</body>
+</html>
+
+
