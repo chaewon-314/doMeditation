@@ -1,3 +1,3 @@
-# 이것저것 실험용 웹사이트
+# 뭔가 하기 싫을때 들어오세요
 
-<h4>chaewon-314.github.io<h4/>
+<h4>chaewon-314.github.io/doMeditation<h4/>
